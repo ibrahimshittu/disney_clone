@@ -60,6 +60,7 @@ const CTA = styled.div`
 `
 
 const CTALogoOne = styled.img`
+    margin-top: 20px;
     
 `
 
@@ -90,6 +91,7 @@ const Descr = styled.div`
     letter-spacing: 1.5px;
     line-height: 1.5;  
     margin-bottom: 12px; 
+    max-width: 760px;
 `
 const CTALogoTwo = styled.img`
     width: 90%;
