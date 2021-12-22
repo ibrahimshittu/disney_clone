@@ -21,11 +21,9 @@ function Detail() {
                     <img src="/images/group-icon.png" />
                 </GroupWatchButton> 
             </Controls>
-            
-            
-            <littleDescription>
-                attribute attribute
-            </littleDescription>
+            <subTitle style={{"font-size": "15px", "min-height": "20px"}}>
+                <p>attribute attribute</p>
+            </subTitle>
             <Description>
                 lorem ipsum The href attribute is required for an anchor to be keyboard accessible. 
                     Provide a valid, navigable address as the href value. 
@@ -72,8 +70,7 @@ const ImageTitle = styled.div`
         width: 100%;
         object-fit: contain;
         opacity: 0.8;
-     }
-
+    }
 `
 
 const Controls = styled.div`
@@ -101,20 +98,12 @@ const AddButton = styled.button`
 const GroupWatchButton = styled(AddButton)`
     background: rgb(0, 0, 0);
     cursor: pointer;
-    
 `
 
-const littleDescription = styled.div`
-    color: rgb(249, 249, 249);
-    font-size: 15px;
-    min-height: 20px;
-    margin-top: 26px;
-    
-`
 const Description = styled.div`
     color: rgb(249, 249, 249);
     margin-top: 26px;
     min-height: 20px;
     font-size: 15px;
-    
+    line-height: 1.4;
 `
