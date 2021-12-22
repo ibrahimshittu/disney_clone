@@ -53,15 +53,11 @@ const CTA = styled.div`
     padding: 80px 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    
-    
+    align-items: center;    
 `
 
 const CTALogoOne = styled.img`
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 `
 
 
@@ -82,8 +78,7 @@ const SignIn = styled.a`
 
     &:hover {
         background-color: #0483ee;
-    }
-    
+    }  
 `
 const Descr = styled.div`
     font-size: 11px;
@@ -95,5 +90,4 @@ const Descr = styled.div`
 `
 const CTALogoTwo = styled.img`
     width: 90%;
-    
 `
