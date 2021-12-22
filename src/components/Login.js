@@ -53,6 +53,7 @@ const CTA = styled.div`
     padding: 80px 40px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     
     
     
@@ -91,5 +92,6 @@ const Descr = styled.div`
     margin-bottom: 12px; 
 `
 const CTALogoTwo = styled.img`
+    width: 90%;
     
 `
