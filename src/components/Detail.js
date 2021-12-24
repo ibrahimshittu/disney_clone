@@ -106,4 +106,5 @@ const Description = styled.div`
     min-height: 20px;
     font-size: 15px;
     line-height: 1.4;
+    max-width: 700px;
 `
